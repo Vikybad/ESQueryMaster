@@ -1,0 +1,32 @@
+{
+  "name": "exquery-master",
+  "version": "1.0.0",
+  "description": "\"Learn Eastic Search Operations from scratch\"",
+  "main": "App.js",
+  "scripts": {
+    "start": "nodemon App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Vikybad/ESQueryMaster.git"
+  },
+  "author": "\"Vikram Badesara\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vikybad/ESQueryMaster/issues"
+  },
+  "homepage": "https://github.com/Vikybad/ESQueryMaster#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fetch": "^1.1.0",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "nodemon": "^3.1.4",
+    "request-promise": "^4.2.6",
+    "winston": "^3.13.1"
+  }
+}
